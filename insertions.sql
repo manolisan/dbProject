@@ -14,10 +14,7 @@ VALUES
 ('Anastasia', 'Sia', 'Dermatology' ,23),
 ('Euagelia', 'Lia', 'Dermatology' ,27);
 
-
-
-
-
+/* Add more patients. 30 in total! */
 INSERT INTO PATIENT(FirstName, LastName, Town, StreetName, Number, PostalCode, Age, DoctorId)
 VALUES
 ('Giannis', 'Giannaros', 'Athens', 'Ermoy', 23, 15772, 18, 1),
@@ -31,13 +28,25 @@ VALUES
 ('Ariadni' 'Familia', 'Athens', 'Solwnos', 117, 18902, 33, 4),
 ('Count', 'Dracula', 'Transylvania', 'Castle', 1, 6666, 66, 6),
 ('Tade', 'Tadopoulos', 'Space', 'Mars', 99, 9999, 100, 5),
+('Giorgos', 'Giorgakis', 'Thessaloniki', 'Tsimiski', 107, 18378, 40, 3),
+('Kwstas', 'Kwstakis' , 'Thessaloniki', 'Aristotelous' , 15, 18375, 37, 2),
+('Marialena', 'Lena', 'Athens' , 'Praksitelous' , 17, 15732, 19, 1),
+('Kwnstantina', 'Ntina', 'Patra', 'Riga Fereou', 87, 826783, 56, 2),
+('Kwnstantinos', 'Ntinos', 'Patra', 'Riga Fereou', 87, 826783, 54, 2),
+('Ilias', 'Kinezos', 'Zografou', 'Hrwwn Polytexneio', 78, 15772, 21, 5),
+('Ilias', 'Liakos', 'Petroupoli', 'Diakrias', 56, 18356, 21, 5),
+('Pavlos', 'Pavlidis', 'Athens', 'Kolokotrwni', 65, 15732, 28, 1),
+('Timos', 'Timotheos', 'Zografou', 'Grigoriou Auksediou', 114, 15773, 20, 1);
 
+/* Add more pharmacy */
 INSERT INTO PHARMACY(Name, Town, StreetName, Number, PostalCode, PhoneNumber)
 VALUES
 ('Drugstore', 'Athens', 'Papanikola', 13, 14234, 904),
 ('Coffeshop', 'Amsterdam', 'RedLightStreet' , 17 , 13244, 5435),
 ('ZografosPharmacy', 'Zografou', 'Papagou', 42 , 15773, 89572),
-('PhanouriosPharmacy', 'Athens', 'Agiou Phanouriou', 105 , 13911, 17203);
+('PhanouriosPharmacy', 'Athens', 'Agiou Phanouriou', 105 , 13911, 17203),
+('ReliefEstablisher' , 'Athens', 'Ermou', 120, 14235, 210301),
+('RelaxedPharmacy', 'Thessaloniki', 'Tsimiski', 14, 18378,2403981);
 
 INSERT INTO PHARMACEUTICALCOMPANY(Name, PhoneNumber)
 VALUES
@@ -48,7 +57,7 @@ VALUES
 ('ΕuphoriaInductor', 21048327);
 
 
-
+/* Add more drugs */
 INSERT INTO DRUG(Name, Formula, PharmaceuticalCompanyId)
 VALUES
 ('Depon', '15cc', 5),
@@ -63,17 +72,19 @@ VALUES
 ('Mensulid', '43cc', 2),
 ('Lobivon', '9cc', 2);
 
+/* Add much more rows in prescription! */
 INSERT INTO PRESCRIPTION(Date, Quantity, DoctorId, PatientId, DrugId)
 VALUES
 (DATE '2017-04-28', 5, 1 , 1, 1),
 (DATE '2017-03-15', 4, 1 , 1, 2);
 
-
+/* Add much more rows in sell! */
 INSERT INTO SELL(Price, PharmacyId, DrugId)
 VALUES
 (10, 1, 2),
 (5, 1, 1);
 
+/* Add more contracts.*/
 INSERT INTO CONTRACT(StartDate, EndDate, Text, Supervisor, PharmacyId, PharmaceuticalCompanyId)
 VALUES
 (DATE '2000-01-29', DATE '2030-01-29', 'symfwnitiko synegasias', 'Mhtsaras', 1, 1),
