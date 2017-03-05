@@ -72,11 +72,26 @@ VALUES
 ('Mensulid', '43cc', 2),
 ('Lobivon', '9cc', 2);
 
-/* Add much more rows in prescription! */
 INSERT INTO PRESCRIPTION(Date, Quantity, DoctorId, PatientId, DrugId)
 VALUES
-(DATE '2017-04-28', 5, 1 , 1, 1),
-(DATE '2017-03-15', 4, 1 , 1, 2);
+(DATE '2017-04-28', 5, 1, 1, 1),
+(DATE '2017-03-15', 4, 1, 1, 2),
+(DATE '2017-01-01', 3, 2, 3, 3),
+(DATE '2017-01-07', 3, 3, 3, 2),
+(DATE '2017-01-03', 1, 5, 3, 6),
+(DATE '2017-01-10', 8, 5, 10, 8),
+(DATE '2017-01-08', 3, 5, 10, 5),
+(DATE '2017-01-08', 3, 2, 9, 2),
+(DATE '2017-01-11', 4, 2, 8, 2),
+(DATE '2017-01-15', 4, 2, 8, 4),
+(DATE '2017-01-15', 4, 1, 4, 1),
+(DATE '2017-01-15', 4, 1, 4, 1),
+(DATE '2017-01-14', 2, 4, 7, 4),
+(DATE '2017-01-14', 1, 2, 4, 4),
+(DATE '2017-01-20', 5, 7, 2, 2),
+(DATE '2017-01-23', 3, 1, 8, 2),
+(DATE '2017-01-28', 1, 2, 2, 3);
+
 
 /* Add much more rows in sell! */
 INSERT INTO SELL(Price, PharmacyId, DrugId)
