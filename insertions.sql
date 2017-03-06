@@ -103,7 +103,16 @@ VALUES
 INSERT INTO SELL(Price, PharmacyId, DrugId)
 VALUES
 (10, 1, 2),
-(5, 1, 1);
+(5,  1, 1),
+(4,  3, 3),
+(7,  2, 9),
+(6,  3, 4),
+(15, 5, 8),
+(8,  4, 6),
+(6,  6, 5),
+(3,  4, 7),
+(9,  2, 10),
+(5,  1, 11) ;
 
 INSERT INTO MAKE(PharmaceuticalCompanyId, DrugId)
 VALUES
