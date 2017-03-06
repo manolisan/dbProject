@@ -2,7 +2,7 @@ START TRANSACTION;
 USE Prescriptions_R_X;
 
 
-select Name
+select Namedrug
 from DRUG d
 where d.DrugId=(select DrugId
 				from SELL 
