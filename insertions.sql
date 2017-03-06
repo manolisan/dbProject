@@ -10,7 +10,7 @@ VALUES
 ('Kwstas', 'Kwnstantinou', 'Nervology' ,11),
 ('Giannis', 'Giannaros', 'Gynecologist' ,30),
 ('Maria', 'Maraki-Mario', 'Obstetrics' ,10),
-('Xara', 'Xaroula', 'Cardiolody' ,20),
+('Xara', 'Xaroula', 'Cardiology' ,20),
 ('Anastasia', 'Sia', 'Dermatology' ,23),
 ('Euagelia', 'Lia', 'Dermatology' ,27);
 
@@ -60,17 +60,17 @@ VALUES
 /* Add more drugs */
 INSERT INTO DRUG(Name, Formula, PharmaceuticalCompanyId)
 VALUES
-('Depon', '15cc', 5),
-('Panadol', '10cc', 5),
-('Ponstan', '7cc', 3),
-('Cilroton', '20cc', 3),
-('Lasix', '34cc', 1),
-('Tobrex', '34cc', 5),
-('Augmentin', '13cc', 4),
-('Betafusin', '21cc', 2),
-('Tobradex', '8cc', 3),
-('Mensulid', '43cc', 2),
-('Lobivon', '9cc', 2);
+('Depon', 'water', 5),
+('Panadol', 'dioxide', 5),
+('Ponstan', 'azote', 3),
+('Cilroton', 'water', 3),
+('Lasix', 'carbon', 1),
+('Tobrex', 'carbon', 5),
+('Augmentin', 'dioxide', 4),
+('Betafusin', 'water', 2),
+('Tobradex', 'carbon', 3),
+('Mensulid', 'azote', 2),
+('Lobivon', 'azote', 2);
 
 INSERT INTO PRESCRIPTION(Date, Quantity, DoctorId, PatientId, DrugId)
 VALUES
@@ -98,6 +98,23 @@ INSERT INTO SELL(Price, PharmacyId, DrugId)
 VALUES
 (10, 1, 2),
 (5, 1, 1);
+
+INSERT INTO MAKE(PharmaceuticalCompanyId, DrugId)
+VALUES
+(1, 2),
+(1, 3),
+(1, 5),
+(1, 6),
+(2, 3),
+(2, 2),
+(3, 5),
+(3, 10),
+(4, 9),
+(4, 1),
+(5, 4),
+(5, 5),
+(5, 6),
+(5, 1);
 
 /* Add more contracts.*/
 INSERT INTO CONTRACT(StartDate, EndDate, Text, Supervisor, PharmacyId, PharmaceuticalCompanyId)
