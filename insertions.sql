@@ -118,20 +118,14 @@ VALUES
 
 INSERT INTO MAKE(PharmaceuticalCompanyId, DrugId)
 VALUES
-(1, 2),
-(1, 3),
-(1, 5),
-(1, 6),
+(1, 1),
 (2, 3),
 (2, 2),
 (3, 5),
 (3, 10),
 (4, 9),
-(4, 1),
-(5, 4),
-(5, 5),
-(5, 6),
-(5, 1);
+(4, 4),
+(5, 6);
 
 /* Add more contracts.*/
 INSERT INTO CONTRACT(StartDate, EndDate, Text, Supervisor, PharmacyId, PharmaceuticalCompanyId)
