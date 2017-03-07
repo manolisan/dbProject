@@ -65,7 +65,7 @@ VALUES
 
 
 /* Add more drugs */
-INSERT INTO DRUG(Namedrug, Formula, PharmaceuticalCompanyId)
+INSERT INTO DRUG(Name, Formula, PharmaceuticalCompanyId)
 VALUES
 ('Depon', 'water', 5),
 ('Panadol', 'dioxide', 5),
