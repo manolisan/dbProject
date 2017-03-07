@@ -9,15 +9,12 @@ VALUES
 ('Takis', 'Takopoulos', 'Nervology', 7),
 ('Kwstas', 'Kwnstantinou', 'Nervology' ,11),
 ('Giannis', 'Giannaros', 'Gynecologist' ,30),
-<<<<<<< Updated upstream
-('Maria', 'Maraki-Mario', 'Obstetrics' ,10),
+('Maria', 'Maraki-Mario', 'Nervology' ,10),
 ('Xara', 'Xaroula', 'Cardiology' ,20),
 ('Anastasia', 'Sia', 'Dermatology' ,23),
-=======
-('Maria', 'Maraki-Mario', 'Obstetrics' ,11),
+('Maria', 'Maraki-Mario', 'Nervology' ,11),
 ('Xara', 'Xaroula', 'Cardiolody' ,20),
 ('Anastasia', 'Sia', 'Dermatology' ,7),
->>>>>>> Stashed changes
 ('Euagelia', 'Lia', 'Dermatology' ,27);
 
 /* Add more patients. 30 in total! */
