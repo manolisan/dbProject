@@ -1,5 +1,5 @@
 USE Prescriptions_R_X;
 
-select Name, Formula
+select Namedrug, Formula
 from DRUG 
 order by Formula ASC; 
