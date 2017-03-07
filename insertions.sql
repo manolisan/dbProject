@@ -13,6 +13,10 @@ VALUES
 ('Xara', 'Xaroula', 'Cardiology' ,20),
 ('Anastasia', 'Sia', 'Dermatology' ,23),
 ('Maria', 'Maraki-Mario', 'Obstetrics' ,11),
+('Maria', 'Maraki-Mario', 'Nervology' ,10),
+('Xara', 'Xaroula', 'Cardiology' ,20),
+('Anastasia', 'Sia', 'Dermatology' ,23),
+('Maria', 'Maraki-Mario', 'Nervology' ,11),
 ('Xara', 'Xaroula', 'Cardiolody' ,20),
 ('Anastasia', 'Sia', 'Dermatology' ,7),
 ('Euagelia', 'Lia', 'Dermatology' ,27);
