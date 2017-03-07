@@ -77,16 +77,7 @@ VALUES
 ('Betafusin', 'water', 2),
 ('Tobradex', 'carbon', 3),
 ('Mensulid', 'azote', 2),
-('Lobivon', 'azote', 2),
-('Zanax', 'potassium',5),
-('Zinadol','lithium',4),
-('Lexotanil','dioxide',1),
-('Remeron','manganese',2),
-('Prozac','water',3),
-('Salospir','carbon',1),
-('Almora','azote',4),
-('Zantac','dioxide',5),
-('Algon','iron',5);
+('Lobivon', 'azote', 2);
 
 INSERT INTO PRESCRIPTION(Date, Quantity, DoctorId, PatientId, DrugId)
 VALUES
