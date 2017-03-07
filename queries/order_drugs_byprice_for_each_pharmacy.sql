@@ -6,6 +6,5 @@ where P.PharmacyId=S.PharmacyId
 	 and D.DrugId=S.DrugId
 group by 
 S.PharmacyId,
-S.DrugId
-order by Price;
+S.DrugId;
 
