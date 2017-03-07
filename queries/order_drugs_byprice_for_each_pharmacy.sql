@@ -1,10 +1,12 @@
 USE Prescriptions_R_X;
 
-SELECT P.Name,D.Namedrug,S.Price
-FROM SELL as S,PHARMACY AS P,DRUG as D
-where P.PharmacyId=S.PharmacyId
-	 and D.DrugId=S.DrugId
-group by 
-S.PharmacyId,
-S.DrugId;
+SELECT  Name,Namedrug,Price
+FROM SELL as S ,PHARMACY as P ,DRUG as D 
+where 
+    S.DrugId=D.DrugId
+    and
+    S.PharmacyId=P.PharmacyId
+    and
+    D.Namedrug=?
+    order by Price; 
 
