@@ -113,7 +113,8 @@ VALUES
 (6,  6, 5),
 (3,  4, 7),
 (9,  2, 10),
-(5,  1, 11) ;
+(5,  1, 11),
+(11, 3, 2);
 
 INSERT INTO MAKE(PharmaceuticalCompanyId, DrugId)
 VALUES
