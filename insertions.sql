@@ -123,7 +123,18 @@ VALUES
 (3,  4, 7),
 (9,  2, 10),
 (5,  1, 11),
-(11, 3, 2);
+(11, 3, 2),
+(7,  5, 13),
+(3,  6, 15),
+(8,  2,  4),
+(9,  5,  2),
+(5,  3, 14),
+(3,  4, 16),
+(6,  6, 17),
+(7,  5, 18),
+(11, 6, 2),
+(6,  2, 3),
+(12, 1, 3);
 
 /* Add more contracts.*/
 INSERT INTO CONTRACT(StartDate, EndDate, Text, Supervisor, PharmacyId, PharmaceuticalCompanyId)
