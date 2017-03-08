@@ -140,6 +140,9 @@ VALUES
 INSERT INTO CONTRACT(StartDate, EndDate, Text, Supervisor, PharmacyId, PharmaceuticalCompanyId)
 VALUES
 (DATE '2000-01-29', DATE '2030-01-29', 'symfwnitiko synegasias', 'Mhtsaras', 1, 1),
-(DATE '1997-08-15', DATE '2027-08-15', 'symvolaio me times', 'Nikolas',2 , 1);
+(DATE '1997-08-15', DATE '2027-08-15', 'symvolaio me times', 'Nikolas',2 , 1),
+(DATE '2010-06-17', DATE '2018-03-24', 'mazi ta konomame', 'Maria', 3, 3),
+(DATE '2009-10-09', DATE '2019-17-31', 'kanoume biziness', 'Takis', 5, 4),
+(DATE '1990-08-29', DATE '2020-01-09', 'prosfora synergasias', 'Ypo', 4, 5);
 
 COMMIT;
