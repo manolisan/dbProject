@@ -142,7 +142,8 @@ VALUES
 (DATE '2000-01-29', DATE '2030-01-29', 'symfwnitiko synegasias', 'Mhtsaras', 1, 1),
 (DATE '1997-08-15', DATE '2027-08-15', 'symvolaio me times', 'Nikolas',2 , 1),
 (DATE '2010-06-17', DATE '2018-03-24', 'mazi ta konomame', 'Maria', 3, 3),
-(DATE '2009-10-09', DATE '2019-17-31', 'kanoume biziness', 'Takis', 5, 4),
-(DATE '1990-08-29', DATE '2020-01-09', 'prosfora synergasias', 'Ypo', 4, 5);
+(DATE '2009-10-09', DATE '2019-11-30', 'kanoume biziness', 'Takis', 5, 4),
+(DATE '1990-08-29', DATE '2020-01-09', 'prosfora synergasias', 'Ypo', 4, 5),
+(DATE '2006-07-12', DATE '2017-03-08', 'kali prosfora', 'Babis',3,2);
 
 COMMIT;
