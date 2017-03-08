@@ -8,7 +8,7 @@ CREATE TABLE DOCTOR (
 DoctorId   		 INT UNSIGNED NOT NULL AUTO_INCREMENT,
 FirstName   	 VARCHAR(45) NOT NULL,
 LastName    	 VARCHAR(45) NOT NULL,
-Speciality  	 VARCHAR(45),
+Speciality  	 VARCHAR(45) NOT NULL,
 ExperianceYears  INT UNSIGNED NOT NULL CHECK(ExperianceYears>=0),
 UNIQUE KEY (DoctorId),
 PRIMARY KEY (DoctorId)
