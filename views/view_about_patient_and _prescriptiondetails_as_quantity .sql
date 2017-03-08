@@ -11,5 +11,5 @@ ON PR.PatientId=P.PatientId
 order by PR.Date DESC;
 
 
-
+/* test it */
 SELECT * FROM vTest1;

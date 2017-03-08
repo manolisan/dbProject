@@ -28,8 +28,8 @@ CREATE TRIGGER Drugs_limit
 BEFORE INSERT ON DRUG 
 FOR EACH ROW 
 BEGIN 
-	IF (select COUNT(*) from DRUG) >= 15 THEN 
-	SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = "Prescription_R_X doesn't accept more than 15 different drugs!!! ";
+	IF (select COUNT(*) from DRUG) >= 20 THEN 
+	SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = "Prescription_R_X doesn't accept more than 20 different drugs!!! ";
     END IF;
 
 END //
