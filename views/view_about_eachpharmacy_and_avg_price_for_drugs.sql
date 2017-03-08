@@ -14,5 +14,5 @@ where
 
 
 
-
+/* test it */
 SELECT * FROM vTest2;
